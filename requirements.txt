@@ -1,0 +1,27 @@
+# GrowBuddy Dependencies
+
+# Django and core dependencies
+Django==4.2.7
+Pillow==10.1.0  # For image handling
+python-dotenv==1.0.0  # For environment variables
+
+# Database
+psycopg2-binary==2.9.9  # PostgreSQL adapter (optional, can use SQLite for development)
+
+# User authentication and management
+django-allauth==0.58.2  # For social authentication (optional)
+
+# Frontend
+django-crispy-forms==2.0  # For better form rendering
+crispy-bootstrap5==0.7  # Bootstrap 5 template pack for crispy forms
+
+# API (if needed later)
+django-rest-framework==0.1.0  # For building APIs
+
+# Development tools
+django-debug-toolbar==4.2.0  # For debugging (development only)
+
+# Production (when ready to deploy)
+gunicorn==21.2.0  # WSGI HTTP Server
+whitenoise==6.5.0  # Static file serving
+dj-database-url==2.1.0  # Database configuration with URLs
